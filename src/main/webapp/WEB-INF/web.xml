@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServleT</servlet-name>
+  	<display-name>LoginServleT</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.LoginServleT</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTechTalk</servlet-name>
+  	<display-name>AddTechTalk</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.AddTechTalk</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AttendanceServlet</servlet-name>
+  	<display-name>AttendanceServlet</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.AttendanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FetchTechTalk</servlet-name>
+  	<display-name>FetchTechTalk</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.FetchTechTalk</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateTechtalk</servlet-name>
+  	<display-name>UpdateTechtalk</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.UpdateTechtalk</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>ServletClasses.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServleT</servlet-name>
+  	<url-pattern>/LoginServleT</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTechTalk</servlet-name>
+  	<url-pattern>/AddTechTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AttendanceServlet</servlet-name>
+  	<url-pattern>/AttendanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FetchTechTalk</servlet-name>
+  	<url-pattern>/FetchTechTalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateTechtalk</servlet-name>
+  	<url-pattern>/UpdateTechtalk</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
